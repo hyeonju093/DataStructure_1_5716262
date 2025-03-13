@@ -17,13 +17,13 @@ void print_bit(int num) {
 int main() {
     int num;
 
-    printf("정수를 입력하세요: ");
+    printf("정수를 입력하세요 : ");
     if (scanf_s("%d", &num) != 1) {
         printf("입력 오류\n");
         return 1;
     }
 
-    printf("입력된 정수의 32비트 표현: ");
+    printf("입력된 정수의 32비트 표현 : ");
     print_bit(num);
     printf("\n");
 
